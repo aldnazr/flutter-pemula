@@ -32,6 +32,8 @@ class _MainPageState extends State<MainPage> {
         title: Text(
           'Hello $textfieldNamaValue',
         ),
+        leading: null,
+        centerTitle: true,
       ),
       body: SingleChildScrollView(
         child: Center(
